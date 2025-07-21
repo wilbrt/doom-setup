@@ -25,7 +25,6 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/clj-kondo/clj-
 
 # doom prereqs
 brew install rg coreutils fd cmake libvterm
-xcode-select --install
 
 # install doom
 echo  -e "Installing doom emacs"
@@ -45,3 +44,4 @@ echo -e "Config files downloaded"
 ~/.config/emacs/bin/doom sync
 
 # if package installation fails rm -rf the problematic package and try doom sync again
+
