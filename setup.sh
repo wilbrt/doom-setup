@@ -16,7 +16,6 @@ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
 
 # install java, clojure and clojure tools
 brew install --cask temurin@21
-brew remove clojure-lsp
 brew install clojure/tools/clojure clojure-lsp/brew/clojure-lsp-native babashka/brew/neil borkdude/brew/jet
 
 echo  -e "Installing cljfmt"
