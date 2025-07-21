@@ -5,4 +5,4 @@ The setup script can be run with
 ```
 $ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/wilbrt/doom-setup/refs/heads/main/setup.sh)"
 ```
-It most of what one could need, starting with homebrew.
+It should install most of what one could need, starting with homebrew.
